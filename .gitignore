@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Local model data (if any)
+*.bin
+*.gguf
