@@ -13,22 +13,21 @@ ollama pull llama3.2:3b
 
 ## 3. Python Environment Setup
 It is recommended to use a virtual environment:
-```bash
+```powershell
 python -m venv venv
-# On Windows
 .\venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
 ```
 
 ## 4. Install Dependencies
-```bash
-pip install requests
+```powershell
+pip install requests datasets
 ```
 
-## 5. Run the Chatbot
-Ensure Ollama is running, then execute:
-```bash
+## 5. Run the Chatbot or Data Prep
+```powershell
+# To run the chatbot evaluation:
 python chatbot.py
+
+# To run the data preparation sample:
+python data_prep_sample.py
 ```
-This will generate `eval/results.md` with responses from the model.

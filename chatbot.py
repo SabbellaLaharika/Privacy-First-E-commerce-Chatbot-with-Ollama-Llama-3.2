@@ -32,7 +32,8 @@ def main():
     zero_shot_template = load_template(zero_shot_path)
     one_shot_template = load_template(one_shot_path)
 
-    # 20 adapted e-commerce queries
+    # 20 adapted e-commerce queries (Source: Ubuntu Dialogue Corpus v2.0)
+    # See data_preparation.md for the full original-to-adapted mapping.
     queries = [
         "How do I track my recent order?",
         "My discount code isn't working at checkout.",

@@ -4,7 +4,7 @@
 The goal of this project was to evaluate the feasibility of using a local LLM (Llama 3.2 3B) for e-commerce customer support and to compare the effectiveness of Zero-Shot vs. One-Shot prompting techniques. The deployment was managed using Ollama to ensure data privacy and zero API costs.
 
 ## Methodology
-The evaluation used 20 e-commerce-related queries adapted from common customer interactions. Each query was processed twice:
+The evaluation used 20 e-commerce-related queries meticulously adapted from technical support dialogues in the Ubuntu Dialogue Corpus (v2.0). The full mapping of original technical queries to their e-commerce counterparts is documented in `data_preparation.md`. Each query was processed twice:
 1. **Zero-Shot**: Direct instruction without examples.
 2. **One-Shot**: Instruction plus a single example of a high-quality response.
 
