@@ -2,14 +2,14 @@
 
 A privacy-first e-commerce chatbot built using Ollama and Llama 3.2 3B. This project demonstrates local LLM deployment, prompt engineering (Zero-Shot vs. One-Shot), and performance evaluation.
 
-> [!NOTE]
-> ### 💡 Why Visuals Matter in this Walkthrough
-> When presenting a local machine learning system, scrolling through raw code or text files in an editor is rarely enough to grasp the full runtime dynamics. For example:
-> * **Code Limitations**: Looking at a raw `requests.post()` inside `chatbot.py` does not show you how the Python script, the local Ollama daemon, and Llama 3.2's neural network interact in real-time. Our [System Architecture Diagram](#🏗️-high-level-architecture--flow) makes this relationship instantly clear.
-> * **Abstract Logic**: Reading template string substitutions under `prompts/` cannot easily show the cognitive difference in LLM reasoning between Zero-Shot direct questions and One-Shot in-context examples. Our [Prompting Concepts Diagram](#🧠-prompt-engineering-concepts) maps this comparison side-by-side.
-> * **Data Scaling**: Scrolling through 40 rows of raw markdown tables in `eval/results.md` doesn't instantly show which technique actually performed better. Our [Performance Chart](#📊-performance-comparison) makes the quantitative comparison immediately visual.
-> 
-> By integrating these high-fidelity visual guides directly into the README, we bridge the gap between static code and dynamic runtime behaviors, ensuring a presentation that is highly clear, professional, and easy to follow.
+## 🛡️ Why Local LLMs? (Cloud vs. Local)
+
+| Feature | Cloud LLMs (e.g., OpenAI) | Local LLMs (Ollama + Llama 3.2) |
+| :--- | :--- | :--- |
+| **Data Privacy** | High Risk (Data leaves network) | **100% Secure** (Air-gapped) |
+| **Cost** | Pay per token (Recurring) | **Free** (Zero API costs) |
+| **Latency** | Network dependent | **Hardware dependent** (Fast) |
+| **Control** | Subject to provider updates | **Full control** over weights & prompt |
 
 ## 🏗️ High-Level Architecture & Flow
 
@@ -74,14 +74,7 @@ graph LR
 - `setup.md`: Detailed setup instructions.
 - `report.md`: Detailed qualitative and quantitative analysis.
 
-## 🛡️ Why Local LLMs? (Cloud vs. Local)
 
-| Feature | Cloud LLMs (e.g., OpenAI) | Local LLMs (Ollama + Llama 3.2) |
-| :--- | :--- | :--- |
-| **Data Privacy** | High Risk (Data leaves network) | **100% Secure** (Air-gapped) |
-| **Cost** | Pay per token (Recurring) | **Free** (Zero API costs) |
-| **Latency** | Network dependent | **Hardware dependent** (Fast) |
-| **Control** | Subject to provider updates | **Full control** over weights & prompt |
 
 ## License
 MIT
