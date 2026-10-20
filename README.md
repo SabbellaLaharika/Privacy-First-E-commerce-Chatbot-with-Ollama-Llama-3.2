@@ -2,6 +2,11 @@
 
 A privacy-first e-commerce chatbot built using Ollama and Llama 3.2 3B. This project demonstrates local LLM deployment, prompt engineering (Zero-Shot vs. One-Shot), and performance evaluation.
 
+## 🎥 Project Demo
+
+[![Watch the project demo on YouTube](https://img.youtube.com/vi/QQ1BMODEAVw/hqdefault.jpg)](https://youtu.be/QQ1BMODEAVw)
+
+
 ## 🛡️ Why Local LLMs? (Cloud vs. Local)
 
 | Feature | Cloud LLMs (e.g., OpenAI) | Local LLMs (Ollama + Llama 3.2) |
