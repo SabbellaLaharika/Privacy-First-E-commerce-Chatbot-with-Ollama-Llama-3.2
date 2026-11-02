@@ -4,7 +4,7 @@ A privacy-first e-commerce chatbot built using Ollama and Llama 3.2 3B. This pro
 
 ## 🎥 Project Demo
 
-[![Watch the project demo on YouTube](https://img.youtube.com/vi/QQ1BMODEAVw/hqdefault.jpg)](https://youtu.be/QQ1BMODEAVw)
+[![Watch the project demo on YouTube](https://img.youtube.com/vi/QQ1BMODEAVw/maxresdefault.jpg)](https://youtu.be/QQ1BMODEAVw)
 
 
 ## 🛡️ Why Local LLMs? (Cloud vs. Local)
